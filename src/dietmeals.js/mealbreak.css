@@ -1,0 +1,102 @@
+/* .card-listdevadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .breakcard {
+    width: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+  }
+  
+  .devimg {
+    max-width: 100%;
+    
+    height: 120px;
+    
+  }
+  
+  .devh2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .devp {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  .buttondev{
+    background-color: rgb(119, 29, 29);
+    color: white;
+    
+  }
+  .fontdev{
+    font-size: 13px;
+  } */
+
+  .dietmealbreakbtn{
+    padding: 20px 60px;
+    border-radius: 10px;
+    background-color:white;
+    color:#603;
+  }
+  .dietmealbreakbtn1{
+    padding: 20px 60px;
+    border-radius: 10px;
+    color:#603;
+  }
+  .dietmealbreakbtn:hover{
+    background-color:white;
+  }
+  .dietmealbreakbtn1:hover{
+    background-color:white;
+    color: #603;
+  }
+  .dietbreakgetbtn{
+    padding: 10px 60px;
+    border-radius: 10px;
+    background-color:#603;
+    color:white;
+  }
+  .dietbreakgetbtn:hover{
+    background-color:rgb(148, 18, 83);
+  }
+
+  .container42{
+    padding: 60px;
+    background-color: white;
+  }
+ .dietbreakbutton{
+  background-color: #b6cc00;
+  color: #603;
+  border: none;
+  border-radius: 5px;
+ }
+ .dietbreakbutton:hover{
+  background-color:#778214;
+ }
+
+ .dietbreakh2{
+  color: #603;
+ }
+
+ @media screen and (max-width: 968px) {
+  .dietmealbreakbtn{
+    margin-bottom: 20px;
+  }
+  .dietmealbreakbtn1{
+      margin-bottom: 20px;
+    }
+    .dietmealcard{
+      margin-bottom:auto;
+    }
+  }
+
+  .dietmealcard{
+    text-align: center;
+  }

@@ -1,0 +1,137 @@
+/* .container78 {
+    display: flex;
+    border: 1px solid #ccc;
+    width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card {
+    flex: 1;
+    padding: 90px;
+  }
+  
+  .yami {
+    background-color:#fff ;
+  margin: 20px;
+  
+  }
+  
+  .right-card {
+    background-color: #fff;
+    margin: 20px;
+   
+  }
+  
+  .form-group {
+    margin: 10px ;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 90%;
+    gap: 5px;
+    padding: 9px;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  .right-column {
+    flex: 1;
+    padding: 20px;
+   
+  }
+  .name-inputs {
+    display: flex;
+    gap: 5px; 
+    width: 350px;
+  }
+
+.name-inputs select,
+.name-inputs input[type="text"] {
+  display: block;
+  margin-bottom: 10px; 
+}
+
+.form-group label[for="email"],
+.form-group label[for="password"] {
+  display: block;
+  margin-bottom: 10px; 
+}
+
+  
+  .name-inputs select,
+  .name-inputs input {
+    flex: 1;
+  }
+ 
+  .pink-button {
+    background-color: rgb(216, 46, 74);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .yami, .right-card {
+    border: 2px solid black;
+    padding: 10px;
+  } */
+
+
+  
+.My-account-cards{
+  padding: 20px;
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 5px;
+  height: 100%;
+  
+}
+
+.form-select{
+  font-size: 14px;
+}
+.orderbtn{
+  background-color:#603;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 80px; 
+}
+.orderbtn1{
+  background-color:#603;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 80px; 
+  margin-top: 60px;
+}
+.customer-heading{
+  color:#603;
+}
+
+
+.ordercontainer{
+  background-color: white;
+  padding-bottom: 200px;
+}
+.orderh3{
+  margin-top: 6px;
+}
+
+@media screen and (max-width: 280px) {
+ .orderbtn11{
+  display:none;
+ }
+  }

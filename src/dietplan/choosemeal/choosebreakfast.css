@@ -1,0 +1,213 @@
+.line-through-numbers {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    height: 2px;
+    background-color: blue;
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+  .numbers{
+    margin-bottom: -30px;
+    color: red;
+  }
+  .numberone{
+    background-color: maroon;
+    color: white;
+    border: 1px solid maroon;
+    border-radius: 20px;
+  }
+  .numbertwo{
+    background-color:gray;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+  }
+  .container15{
+    background-color:#efedeb;
+    padding-top: 50px;
+  }
+  .breakbtn{
+    padding: 20px 50px;
+    border-radius: 10px;
+    background-color: #f7f6f5;
+    
+  }
+  .breakbtn:hover{
+    background-color:white;
+    color: #603;
+  }
+  .breakfastimage{
+    width: 50%;
+    height: 50%;
+  }
+  .container16{
+    background-color: white;
+    padding: 100px;
+  }
+  .breaklastbtn{
+    padding: 10px 30px;
+    background-color: #b6cc00;
+    border-radius: 10px;
+    border: none;
+    color: #603;
+    
+   
+    
+  }
+  .breaklastbtn:hover{
+    background-color: #6b7512;
+    color: white;
+   
+  }
+  
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    background-color:green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+
+.letter {
+    font-size: 10px;
+    font-weight: bold;
+    color:white;
+}
+
+.circle1 {
+    width: 20px;
+    height: 20px;
+    background-color:red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+
+.letter1 {
+    font-size: 10px;
+    font-weight: bold;
+    color:white;
+}
+.letterdiv{
+ display: flex;
+ flex-direction:row;
+ justify-content: center;
+}
+.custom-buttoncount {
+  background-color:#eeeeee; /* Blue background color */
+  color:#603; /* White text color */
+  border: none;
+  border-radius: 10px; /* Rounded corners */
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between; 
+  padding: 0px 12px;
+  width: 100px;
+  height: 40px;
+  transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.custom-button:hover {
+  background-color:white;
+  color: #603;
+}
+
+.buttonpara {
+  background-color:white; /* Gray background for +/- buttons */
+  padding: 1px 5px; /* Adjusted padding */
+  border: 1px solid #7f8c8d; /* Border color */
+  border-radius: 50%; /* Circular shape for +/- buttons */
+  font-size: 10px;
+}
+
+.chooseh2{
+  color: #603;
+}
+
+@media screen and (max-width: 768px) {
+  .container15{
+    text-align: center;
+  }
+  }
+
+  @media screen and (max-width: 768px) {
+    .container16{
+      text-align: center;
+    }
+    }
+
+.chooselastcontainer{
+  background-color: white;
+  padding:20px 0;
+  box-shadow:white;
+}
+.chooselastbtn{
+  background-color: #b6cc00;
+  color: black;
+  padding: 10px 30px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+.chooselastbtn1{
+  background-color:#603;
+  color:white;
+  padding: 10px 60px;
+  border-radius: 5px;
+}
+.chooseinput{
+  height: 100%;
+}
+.choosecard{
+  text-align:center;
+}
+
+
+@media screen and (max-width: 967px) {
+  .breakbtn{
+    margin-bottom: 20px;
+  }
+  .choosecard{
+    margin-bottom:auto;
+  }
+  }
+
+.choosemodalpara{
+  font-size: small;
+}
+
+
+@media screen and (max-width: 768px) {
+  .chooselastcontainer{
+    display: none;
+  }
+  }
+  @media screen and (max-width: 400px) {
+    .numbersline{
+      display: none;
+    }
+    }
+
+
+  .counter-containercount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.custom-buttoncount {
+    display: flex;
+    align-items: center;
+}
+
+/* Add your other styling as needed */

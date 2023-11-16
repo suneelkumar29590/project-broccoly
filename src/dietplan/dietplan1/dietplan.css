@@ -1,0 +1,64 @@
+body{
+    background-color: #edebe9;;
+}
+
+.dietcard{
+    border:none;
+    background-color: white;
+    border-radius: 8px;
+    
+    
+}
+.dietimg{
+    width: 100%;
+}
+.dietbutton{
+    background:#b6cc00;
+    color: #603;
+    padding: 15px 0 15px 0;
+    border: none;
+    border-radius: 5px;
+}
+.dietbutton:hover{
+    background-color:#859307;
+}
+.dietbackground{
+    background-image: url(https://www.butlerschocolates.com/upload/637/cms/676880/en/42110/Ultimate-Bundle-V1-FA.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container10{
+    margin-bottom: 100px;
+    
+    
+}
+.dietplanleftside{
+    background-color: white;
+    padding: 100px;
+}
+
+.container12{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f6f5f4;
+}
+
+.dietpara1icon{
+    color: green;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .container11{
+      margin-bottom: 30px;
+    }
+    }
+
+    @media screen and (max-width: 768px) {
+        .dietplanleftside{
+            padding:50px;
+        }
+        .container12{
+            padding: 50px;
+        }
+        }

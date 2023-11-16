@@ -1,0 +1,28 @@
+.con{
+    text-align:left;
+    margin-bottom:50px;
+    margin-top:20px;
+    
+}
+.intro1{
+    text-align: left;
+    margin-bottom:30px;
+}
+.desc1{
+    text-align: left;
+    margin-bottom:30px;
+}
+.rev-iew{
+    margin-top: 100px;
+    padding-left: 10px;
+    margin-left:10px;
+}
+.navi-container{
+    text-align: left;
+    /* padding-left:100px; */
+    margin-top: 50px;
+}
+.termaslist{
+    color: #603;
+}
+  

@@ -1,0 +1,148 @@
+/* aboutbroccoly.css */
+
+.navi-container {
+  text-align: left;
+  padding-left: 100px;
+}
+
+/* SplitContainer.css */
+.split-containersm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.new-left-content {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.right-contentm {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-containerm {
+  position: relative;
+}
+
+.imgmc {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.diets {
+  color: #4f4e4e;
+  font-weight: 500;
+}
+.imgmj{
+  width:75%;
+  height: 50%
+}
+
+.play-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-210%, 80%);
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+} 
+/* JourneyContainer.css */
+.journey-containerm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8f4f4;
+}
+
+.imgmc {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  justify-content: end;
+}
+
+/* ContactContainer.css */
+.contact-containersm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.spit {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.sprint {
+  font-size: xx-large;
+  color: #4f4e4e;
+  margin-top: 3px;
+}
+
+.iconic {
+  align-items: center;
+  margin-left:auto;
+}
+
+.left-contentm {
+  padding: 20px;
+}
+
+.right-contentm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ab {
+  color: rgb(168, 219, 66);
+  text-decoration: none;
+}
+
+/* Responsive CSS */
+
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .new-left-content, .right-contentm {
+    flex: 1;
+    text-align: center;
+  }
+
+  .video-containerm img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .video-containerm iframe {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .split-containersm{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

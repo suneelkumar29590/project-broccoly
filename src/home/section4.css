@@ -1,0 +1,215 @@
+/* Section4.css */
+/* Styles for small screens (e.g., mobile) */
+@media (max-width: 767px) {
+    .carousel-card {
+      width: 100%; /* Display cards one below the other on small screens */
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Styles for large screens */
+  @media (min-width: 768px) {
+    .carousel-card {
+      width: calc(33.3333% - 20px); /* Display cards side by side on large screens */
+      margin-right: 20px;
+    }
+    .carousel-card:last-child {
+      margin-right: 0;
+    }
+  }
+  
+
+
+
+/* Section4.css */
+.review-carousel {
+    text-align: center;
+  }
+  
+  .carousel-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-cards {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .carousel-card {
+    /* flex: 0 0 25%; Adjust the width as needed to fit 4 cards in a row */
+    padding: 10px;
+    
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    margin: 0 5px; /* Add margin for spacing between cards */
+    
+  }
+  
+  .stars {
+    color: #fcd313; /* Change color as per your design */
+  }
+  .star {
+    color: green; /* Change color as per your design */
+  }
+  
+  .card-heading {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .review-text {
+    margin-top: 10px;
+  }
+  
+  .carousel-controls {
+    margin-top: 20px;
+  }
+  .prev-button,
+.next-button {
+  /* width: 15px;
+  height: auto; */
+  font-size: 16px; /* You can adjust font-size as needed */
+  /* background-color: transparent; 
+  color: white; */
+  border: none;
+  border-radius: 50%; /* Makes the button circular */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  padding: 0; /* Remove padding */
+  text-align: center; /* You can remove this line */
+}
+
+
+
+  
+  .prev-button,
+  .next-button {
+    /* width: 10px; */
+    height: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: grey;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 100px 10px;
+    text-align:center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  
+
+  @media (max-width: 768px) {
+    /* Media query for screens with a maximum width of 768px (adjust as needed) */
+    .carousel-cards {
+      display: flex;
+      flex-direction: column; /* Display cards in a single column */
+    }
+    .arrow-button {
+      display: flex;
+      align-items: center; /* Center vertically */
+      justify-content: center; /* Center horizontally */
+    }
+   }
+   
+
+   .carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .carousel-image {
+    max-width: 100%;
+    max-height: 400px;
+  }
+  
+  .carousel-controls {
+    margin-top: 10px;
+  }
+  
+  /* button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+  } */
+  
+  /* button:hover {
+    background-color: #0056b3;
+  } */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .bmi-calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .calculator-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-field {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"],
+  input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .calculate-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .googleword{
+    font-size: smaller;
+  }
+  

@@ -1,0 +1,74 @@
+
+.BMIicon1{
+    margin-left: 280px;
+  }
+  .BMIicon2{
+    margin-left: 332px;
+  }
+  .BMIicon3{
+    margin-left: 260px;
+  }
+  .BMIicon4{
+    margin-left: 317px;
+  }
+  .BMIicon5{
+    margin-left: 260px;
+  }
+  .BMIicon6{
+    margin-left: 335px;
+  }
+  .BMIicon7{
+    margin-left: 320px;
+  }
+  .BMIicon8{
+    margin-left: 310px;
+  }
+ .bmibutton1 {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .bmilocation1{
+    background-color:#f3f3f37a;
+    color:#603;
+    padding: 0px 0px;
+    margin: 0px;
+    border-top: 1px solid silver;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width:100%;
+    height: 60px;
+    text-align: start;
+    padding: 10px;
+    border-radius:0px;
+    
+  }
+  /* Style for the active button */
+  .bmiactive {
+    background-color:#603;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .BMIsticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    /* background-color: #cae8ca; */
+    /* border: 2px solid #4CAF50; */
+  }
+.BMIgetstarted{
+    border: none;
+    background-color:#603;
+    color:white;
+    border-radius: 5px;
+}
+.BMIreview-text{
+  font-size: 15PX;
+}

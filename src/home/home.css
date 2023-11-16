@@ -1,0 +1,425 @@
+
+/* .....banner */
+
+.radio-button {
+    transform: scale(2.0); /* Adjust the scale factor to increase the size */
+  }
+
+  .bannerbtnget{
+    background-color:#b6cc00;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  
+  .banner {
+    background-image: url('https://media.istockphoto.com/id/612011684/photo/frame-of-fresh-vegetables-on-wooden-background-with-copy-space.webp?b=1&s=170667a&w=0&k=20&c=ZpL67fU3d3HyvALs-NJh5mjKjKxKIkoMg91GvKJBFws='); /* Add the URL of your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color on top of the image */
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-side {
+    width: 50%;
+    margin-left: 60px;
+  }
+  .right-side {
+    width: 35%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding:5px;
+    text-align: center;
+  }
+  
+  
+  
+  /* .leafbutton {
+    background-color:#b6cc00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  } */
+  
+  .leaf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .leaf {
+    position: relative;
+    width: 100px;
+    height: 150px;
+    background:#b6cc00; 
+   border-radius:40%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff; 
+  }
+  
+  .leaf::before,
+  .leaf::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  
+ 
+  .leafbutton {
+    background-color:#b6cc00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .name {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  @media (min-width: 768px) {
+    .banner {
+        padding: 50px;
+    }
+    .left-side {
+        width: 50%;
+    }
+    .right-side {
+        width: 35%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-side {
+        width: 100%;
+    }
+    .right-side {
+        width: 100%;
+        padding: 20px;
+    }
+  }
+  @media (max-width: 767px) {
+   .right-side{
+    text-align: center;
+    margin: auto;
+   }
+  }
+ 
+  
+  /* ..... */
+  
+ 
+  
+  .foodleft{
+    background-color:#603;
+    padding: 100px!important;
+  }
+  .foodpara{
+    color: #fff;
+    font-size:20px;
+  }
+  .foodpara1{
+    color: #fff;
+    padding: 5px;
+  }
+  .foodright{
+    background-image: url(https://www.mowglistreetfood.com/wp-content/uploads/2023/01/Landing_image_Desktop.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .foodpara1icon{
+    color: #b6cc00;
+  }
+  .foodparabtn{
+    background-color: #b6cc00;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* ... */
+  
+.container3{
+  background-color: white;
+  padding-top: 70px;
+}
+  
+  .yellowstar{
+    padding: 2px;
+    margin: 2px;
+    color:#f7f70a;
+  }
+  .nbrdata{
+    text-decoration: underline;
+  }
+  .googleword{
+    font-size: 40px;
+  }
+  .nbrpara{
+    font-size: small;
+  }
+  
+  .carousel-container {
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .slideh6{
+    font-weight: bold;
+  }
+  
+  .carousel-text {
+    display: inline-block;
+    white-space: nowrap;
+    transition: transform 0.5s;
+  }
+  
+  .greenstar{
+   
+    padding: 2px;
+    margin: 2px;
+    color:green;
+  }
+  
+  #slider {
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+  }
+  #slider input[type=radio] {
+    display: none;
+  }
+  #slider label {
+    cursor:pointer;
+    text-decoration: none;
+  }
+  #slides {
+    padding: 10px;
+    
+    position: relative;
+    z-index: 1;
+  }
+  #overflow {
+    width: 100%;
+    overflow: hidden;
+  }
+  #slide1:checked ~ #slides .inner {
+    margin-left: 0;
+  }
+  #slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+  }
+  #slide3:checked ~ #slides .inner {
+    margin-left: -200%;
+  }
+  #slide4:checked ~ #slides .inner {
+    margin-left: -300%;
+  }
+  #slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    display: flex; 
+  }
+  
+  #slides .slide {
+    flex: 1; /* Each slide should take up an equal portion of the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+  }
+  
+  
+  #controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+  }
+  #controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+  }
+  #controls label:hover {
+    opacity: 1;
+  }
+  #slide1:checked ~ #controls label:nth-child(2),
+  #slide2:checked ~ #controls label:nth-child(3),
+  #slide3:checked ~ #controls label:nth-child(4),
+  #slide4:checked ~ #controls label:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float:right;
+    margin: 0 -50px 0 0;
+    display: block;
+  }
+  #slide1:checked ~ #controls label:nth-last-child(2),
+  #slide2:checked ~ #controls label:nth-last-child(3),
+  #slide3:checked ~ #controls label:nth-last-child(4),
+  #slide4:checked ~ #controls label:nth-last-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float:left;
+    margin: 0 0 0 -50px;
+    display: block;
+  }
+  #bullets {
+    margin: 150px 0 0;
+    text-align: center;
+  }
+  #bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    background: #ccc;
+    margin: 0 10px;
+  }
+  #slide1:checked ~ #bullets label:nth-child(1),
+  #slide2:checked ~ #bullets label:nth-child(2),
+  #slide3:checked ~ #bullets label:nth-child(3),
+  #slide4:checked ~ #bullets label:nth-child(4) {
+    background: #444;
+  }
+  @media screen and (max-width: 900px) {
+    #slide1:checked ~ #controls label:nth-child(2),
+    #slide2:checked ~ #controls label:nth-child(3),
+    #slide3:checked ~ #controls label:nth-child(4),
+    #slide4:checked ~ #controls label:nth-child(1),
+    #slide1:checked ~ #controls label:nth-last-child(2),
+    #slide2:checked ~ #controls label:nth-last-child(3),
+    #slide3:checked ~ #controls label:nth-last-child(4),
+    #slide4:checked ~ #controls label:nth-last-child(1) {
+       margin: 0;
+    }
+    #slides {
+       max-width: calc(100% - 140px);
+       margin: 0 auto;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* ....... */
+ 
+  .arrow-mark{
+    font-size: 50px;
+    margin-top: 50px;
+  }
+  .recivebtn{
+    background-color:#603;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+  }
+  @media screen and (max-width: 768px) {
+    .container4{
+      text-align: center;
+    }
+    
+    }
+
+  
+  /* //////// */
+  
+  .container5{
+    background-color: white;
+  }
+  
+  .paperlink{
+    text-decoration: underline;
+    color: #603;
+  }
+  
+  
+  /* .... */
+  
+  
+  
+  
+  
+  /* .... */
+  
+  .carouselimg{
+    width:100%;
+    height: 100%;
+  }
+  .container8{
+    padding: 50px;
+  }
+  
+  .bmiquote{
+    color: maroon;
+    text-decoration: underline;
+  }
+  .bmibutton{
+    background-color:#603;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .bmiheading{
+    background-color:lightgray;
+    color:black;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .bmiheading1{
+    background-color:lightgray;
+    color: rgb(26, 24, 24);
+    font-weight: lighter;
+  }
+  .queote{
+    color: maroon;
+  }
+  .bmidown{
+    background-color: #f7f5f3;
+  }
+  .ageinput{
+    border: none;
+    border-radius: 5px;
+  }
+  .bmiinputfield{
+    border: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .bmidown{
+      margin-top:30px;
+      
+    }
+    }
+  
+  /* .... */
+  

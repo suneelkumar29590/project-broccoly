@@ -1,0 +1,26 @@
+.speedometer {
+    width: 200px;
+    height: 260px;
+    background: url('https://img.freepik.com/premium-vector/poor-good-customer-satisfaction-metrics-bad-credit-score-business-service-rating-illustration_68708-3398.jpg?w=740') center/cover; /* Add your background image */
+    position: relative;
+  }
+  
+  .needle {
+    width: 2px;
+    height: 70px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    transform-origin: bottom;
+    transform: translateX(-50%);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  body {
+    overflow-x: hidden;  
+}
+
+
+
+

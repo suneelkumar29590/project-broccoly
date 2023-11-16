@@ -1,0 +1,63 @@
+.button-head1{
+    height: 60px;
+    width: 250px;
+    background-color: white;
+    color: brown;
+    border-left: 1px solid gray;
+
+}
+.button-head-center{
+    height: 60px;
+    width: 250px;
+    background-color:brown;
+    color: white;
+}
+.button-head3{
+    height: 60px;
+    width: 250px;
+    background-color: white;
+    color: brown;
+    border-right: 1px solid gray;
+    
+}
+.DelandRetbg{
+    
+    height: 300px;
+    background-image: url('https://img.freepik.com/premium-photo/crooked-arrow-pointing-right-up-with-copy-space_23-2148490546.jpg?w=826');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.DelandRetbtns{
+    border: none;
+    margin-top: 8px;
+    color: #603;
+    background-color: transparent;
+
+}
+.DelandRetbtns1{
+    background-color: transparent;
+}
+.DelandRetbrdr{
+    border-bottom: 1px solid silver;
+    margin: 0px;
+   
+}
+.truck{
+    color:#603;
+}
+.DelandRetsticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    /* background-color: #cae8ca; */
+    /* border: 2px solid #4CAF50; */
+  }
+.DelandRetgetstarted{
+    border: none;
+    background-color:#603;
+    color:white;
+    border-radius: 5px;
+}

@@ -1,0 +1,101 @@
+.vegimg{
+    width: 100%;
+}
+.vegright{
+    background-color: white;
+    padding: 60px;
+    border: none;
+    border-radius: 5px;
+}
+.vegmalebtn{
+    padding: 5px 40px 5px 40px;
+    background-color: #603;
+    color: white;
+   border: none;
+    border-radius: 5px;
+}
+.vegfemalebtn{
+    padding: 5px 40px 5px 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid #603;
+}
+.vegfemalebtn:hover{
+    background-color:rgb(154, 19, 86);
+    color: white;
+}
+
+.vegbutton{
+    background-color: #603;
+    color: white;
+    border-radius: 10px;
+   
+}
+.vegbutton1{
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #603;
+}
+.vegbutton1:hover {
+    background-color:rgb(154, 19, 86);
+    color: white;
+}
+.vegchoose{
+    background-color: #b6cc00;
+    padding: 15px 50px 15px 50px;
+    color: #603;
+    border-radius: 10px;
+    border: none;
+}
+.vegchoose:hover{
+    background-color:#727d10;
+    color: #603;
+}
+
+.lunchimg{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+.container14{
+    background-color: white;
+    margin-top: 100px;
+}
+
+.coreplanveg{
+    border: none;
+    background-color:#edebe9;
+    padding: 30px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+.vegcorebtn{
+    padding: 10px 60px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color:#b6cc00;
+    color:#603;
+}
+.vegcorebtn:hover{
+    background-color:#727d10;
+    color: #603;
+}
+.dietplan2h1{
+    color: #603;
+}
+
+@media screen and (max-width: 768px) {
+    .vegbutton{
+      margin-bottom: 20px;
+    }
+    .vegbutton1{
+        margin-bottom: 20px;
+      }
+      .container14{
+        text-align: center;
+        padding: auto;
+      }
+    }

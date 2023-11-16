@@ -1,0 +1,33 @@
+.navbarbutton{
+    background-color:#603;
+    color: white;
+    padding: 15px 40px;
+  }
+  .container9{
+    background-color:#f2f2f2;
+  }
+  .getnavbtn{
+    background-color: transparent;
+    color: #603;
+  }
+  .navbarbuttonicon{
+    color: #603;
+  }
+  .navbarbuttonicon1{
+    color:white;
+    
+  }
+
+
+  @media screen and (max-width: 608px) {
+    .container9{
+      padding-top: 60px;
+    }
+  
+    }
+    @media screen and (max-width: 385px) {
+      .container9{
+        padding-top: 180px;
+      }
+    
+      }

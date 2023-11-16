@@ -1,0 +1,33 @@
+.Security-btn{
+    background-color: transparent;
+    color: black;
+    border: none;
+    margin-top: 8px;
+}
+.Security-btn1{
+    background-color: transparent;
+    color:#603;
+    border: none;
+  
+}
+.security-p-font{
+    font-size: 13px;
+}
+.security-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    /* background-color: #cae8ca; */
+    /* border: 2px solid #4CAF50; */
+  }
+.security-getstarted{
+    border: none;
+    background-color:#603;
+    color:white;
+    border-radius: 5px;
+}
+
+.security-review-text{
+    font-size: 15px;
+}

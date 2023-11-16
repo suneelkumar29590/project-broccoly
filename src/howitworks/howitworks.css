@@ -1,0 +1,63 @@
+
+.howbackground{
+    background-image: url(https://www.dietchef.co.uk/static/img/testimonials/information-column-backgrounds/tara.png);
+    background-position: 80%;
+    padding: 20px;
+    background-repeat: no-repeat;
+
+   
+    
+}
+.howbackground1{
+    background-image: url( https://www.dietchef.co.uk/static/img/testimonials/information-column-backgrounds/megan.png);
+    background-position: 80%;
+    padding: 20px;
+    background-repeat: no-repeat;
+   
+   
+    
+}
+.howbackground2{
+    background-image: url(	https://www.dietchef.co.uk/static/img/testimonials/information-column-backgrounds/holly.png);
+    background-position: 80%;
+    padding: 20px;
+    background-repeat: no-repeat;
+    
+   
+    
+}
+.howcard{
+    background-color:#edebe9;
+    
+   
+}
+.howcard2{
+    background-color:white;
+}
+.howpara{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.container23{
+    padding: 80px;
+    background-color: white;
+}
+.howleft{
+    background-color: white;
+   padding: 100px!important;
+    
+}
+.howith2{
+    color: #603;
+}
+.howiconworks{
+color: #b6cc00;
+}
+
+@media screen and (max-width: 768px) {
+    .howcard{
+      margin-bottom:auto;
+      margin-top: 20px;
+    }
+  
+    }
